@@ -1,0 +1,15 @@
+#!/bin/bash
+########
+# Author: Ashwini Pote
+# Date: 4 Sep 2023
+#########
+
+#This script for baisc Calaculator
+
+echo "Enter x number:"
+read  number
+echo "Enter y number:"
+read  number
+echo "sum=$((number1 + number2))"
+echo "Diff=$((number1 - number2))"
+
