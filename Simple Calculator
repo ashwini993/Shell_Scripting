@@ -12,4 +12,14 @@ echo "Enter y number:"
 read  number
 echo "sum=$((number1 + number2))"
 echo "Diff=$((number1 - number2))"
+echo "product=$(number * number2))"
+
+
+#check for division by zero
+if [ "$number2" -eq 0 ]; then
+        echo "Division by zero is not allowed."
+ else
+           Division=$((number1 / number2 ))
+             echo "Division=$Division"
+fi
 
