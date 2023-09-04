@@ -1,0 +1,15 @@
+#!/bin/bash
+###########
+# Author: Ashwini Pote
+# Date: 04 Sep 2023
+#############
+
+# Script that prompts the user for their name and then greets them with a personalized message.
+
+#Prompts the user for their name 
+echo " Enter your name:"
+read name
+
+#Greets them wuth a personalized message
+
+echo "Hello, $name! Welcome to the Shell Scripting World"
